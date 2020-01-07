@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  <subtitle>Node開始的部落格</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-01-07T08:47:31.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>核仁</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>你好世界</title>
+    <link href="http://yoursite.com/2020/01/07/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/"/>
+    <id>http://yoursite.com/2020/01/07/你好世界/</id>
+    <published>2020-01-06T20:20:46.000Z</published>
+    <updated>2020-01-07T08:47:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一開始還是要 Hello World。</p><p>之前用過PHP的WordPress跟Laravel，<br>Nodejs跟Python的架構也嘗試過一些。<br>但果然還是靜態網頁好，<br>不用擔心資料庫安全速度又快。</p><p>記得當時聽著廣播節目裡面的人寫著日記，<br>自己也開始了一段時間的日記；<br>最近看著各式各樣的Youtube內容，<br>突然也想嘗試一下blog，<br>好留下點東西讓未來的自己能夠看見。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一開始還是要 Hello World。&lt;/p&gt;
+&lt;p&gt;之前用過PHP的WordPress跟Laravel，&lt;br&gt;Nodejs跟Python的架構也嘗試過一些。&lt;br&gt;但果然還是靜態網頁好，&lt;br&gt;不用擔心資料庫安全速度又快。&lt;/p&gt;
+&lt;p&gt;記得當時聽著廣播節目裡面的人寫著
+      
+    
+    </summary>
+    
+      <category term="隨筆" scheme="http://yoursite.com/categories/%E9%9A%A8%E7%AD%86/"/>
+    
+    
+      <category term="Hello World!" scheme="http://yoursite.com/tags/Hello-World/"/>
+    
+  </entry>
+  
+</feed>
