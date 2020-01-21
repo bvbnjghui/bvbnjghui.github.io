@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-15T10:53:07.000Z</updated>
+  <updated>2020-01-21T18:29:40.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>俄語 - 拼字規則</title>
+    <link href="http://yoursite.com/2020/01/22/%E4%BF%84%E8%AA%9E-%E6%8B%BC%E5%AD%97%E8%A6%8F%E5%89%87/"/>
+    <id>http://yoursite.com/2020/01/22/俄語-拼字規則/</id>
+    <published>2020-01-21T17:50:24.000Z</published>
+    <updated>2020-01-21T18:29:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>大概背單字的時候可以參考?</p><p>相關連結：<a href="http://www.russianlessons.net/grammar/spelling_rules.php" target="_blank" rel="noopener">Russian Spelling Rules</a></p><h2 id="一、拼字規則（Spelling-Rules）"><a href="#一、拼字規則（Spelling-Rules）" class="headerlink" title="一、拼字規則（Spelling Rules）"></a>一、拼字規則（Spelling Rules）</h2><table><thead><tr><th>Ы - И</th><th>O - E</th><th>Я - А</th><th>Ю - У</th></tr></thead><tbody><tr><td>Г, К, Х, Ж, Ч, Ш, Щ</td><td>Ж, Ч, Ш, Щ, Ц</td><td>Г, К, Х, Ж, Ч, Ш, Щ, Ц</td><td>Г, К, Х, Ж, Ч, Ш, Щ, Ц</td></tr></tbody></table><ol><li>Ы - И: 「 Г, К, Х, Ж, Ч, Ш, Щ 」後面不接「Ы」，而用「И」。</li><li>非重音（unstressed） O - E: 「 Ж, Ч, Ш, Щ, Ц 」 後面不接「 非重音的O 」，而用「 E 」。</li><li>Я - А: 「 Г, К, Х, Ж, Ч, Ш, Щ, Ц 」後面不接「 Я 」，而用「 А 」。</li><li>Ю - У: 「 Г, К, Х, Ж, Ч, Ш, Щ, Ц 」後面不接「 Ю 」，而用「 У 」。</li></ol><h2 id="二、輔音變化（Consonant-Mutation）"><a href="#二、輔音變化（Consonant-Mutation）" class="headerlink" title="二、輔音變化（Consonant Mutation）"></a>二、輔音變化（Consonant Mutation）</h2><table><thead><tr><th>+л</th><th>ч</th><th>ж</th><th>ш</th><th>щ</th></tr></thead><tbody><tr><td>п, б, ф, в, м</td><td>т, к</td><td>д, з, г</td><td>с, х</td><td>ст, ск</td></tr></tbody></table><p>п - пл<br>б - бл<br>ф - фл<br>в - вл<br>м - мл<br>т - ч<br>к - ч<br>д - ж<br>з - ж<br>г - ж<br>с - ш<br>х - ш<br>ст - щ<br>ск - щ</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;大概背單字的時候可以參考?&lt;/p&gt;
+&lt;p&gt;相關連結：&lt;a href=&quot;http://www.russianlessons.net/grammar/spelling_rules.php&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Russian Spell
+      
+    
+    </summary>
+    
+      <category term="學習" scheme="http://yoursite.com/categories/%E5%AD%B8%E7%BF%92/"/>
+    
+    
+      <category term="俄語" scheme="http://yoursite.com/tags/%E4%BF%84%E8%AA%9E/"/>
+    
+      <category term="文法" scheme="http://yoursite.com/tags/%E6%96%87%E6%B3%95/"/>
+    
+      <category term="單字" scheme="http://yoursite.com/tags/%E5%96%AE%E5%AD%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>俄語 - 名詞變化</title>
+    <link href="http://yoursite.com/2020/01/15/%E4%BF%84%E8%AA%9E-%E5%90%8D%E8%A9%9E%E8%AE%8A%E5%8C%96/"/>
+    <id>http://yoursite.com/2020/01/15/俄語-名詞變化/</id>
+    <published>2020-01-15T01:10:18.000Z</published>
+    <updated>2020-01-21T17:48:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>俄文中名詞區分詞性（Gender），<br>基本能以字尾區分：</p><table><thead><tr><th>男性（Masculine）</th><th>女性（feminine）</th><th>中性（neuter）</th></tr></thead><tbody><tr><td>「輔音」「й」</td><td>「а」「я」</td><td>「о」「е」</td></tr></tbody></table><p>「ь」是男性或者女性。</p><p>依據詞性在不同格下的變化也不一樣。<br>格有六種：</p><ol><li>主格（Nominative Case）</li><li>屬格（Accusative Case）</li><li>與格（Dative Case）</li><li>賓格（Genitive Case）</li><li>工具格（Instrumental Case）</li><li>前置格（Prepositional Case）</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;俄文中名詞區分詞性（Gender），&lt;br&gt;基本能以字尾區分：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;男性（Masculine）&lt;/th&gt;
+&lt;th&gt;女性（feminine）&lt;/th&gt;
+&lt;th&gt;中性（neuter）&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+      
+    
+    </summary>
+    
+      <category term="學習" scheme="http://yoursite.com/categories/%E5%AD%B8%E7%BF%92/"/>
+    
+    
+      <category term="俄語" scheme="http://yoursite.com/tags/%E4%BF%84%E8%AA%9E/"/>
+    
+      <category term="文法" scheme="http://yoursite.com/tags/%E6%96%87%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>俄語入門?</title>
