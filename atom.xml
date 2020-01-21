@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-21T18:29:40.000Z</updated>
+  <updated>2020-01-21T18:33:53.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="http://yoursite.com/2020/01/22/%E4%BF%84%E8%AA%9E-%E6%8B%BC%E5%AD%97%E8%A6%8F%E5%89%87/"/>
     <id>http://yoursite.com/2020/01/22/俄語-拼字規則/</id>
     <published>2020-01-21T17:50:24.000Z</published>
-    <updated>2020-01-21T18:29:40.000Z</updated>
+    <updated>2020-01-21T18:33:53.000Z</updated>
     
-    <content type="html"><![CDATA[<p>大概背單字的時候可以參考?</p><p>相關連結：<a href="http://www.russianlessons.net/grammar/spelling_rules.php" target="_blank" rel="noopener">Russian Spelling Rules</a></p><h2 id="一、拼字規則（Spelling-Rules）"><a href="#一、拼字規則（Spelling-Rules）" class="headerlink" title="一、拼字規則（Spelling Rules）"></a>一、拼字規則（Spelling Rules）</h2><table><thead><tr><th>Ы - И</th><th>O - E</th><th>Я - А</th><th>Ю - У</th></tr></thead><tbody><tr><td>Г, К, Х, Ж, Ч, Ш, Щ</td><td>Ж, Ч, Ш, Щ, Ц</td><td>Г, К, Х, Ж, Ч, Ш, Щ, Ц</td><td>Г, К, Х, Ж, Ч, Ш, Щ, Ц</td></tr></tbody></table><ol><li>Ы - И: 「 Г, К, Х, Ж, Ч, Ш, Щ 」後面不接「Ы」，而用「И」。</li><li>非重音（unstressed） O - E: 「 Ж, Ч, Ш, Щ, Ц 」 後面不接「 非重音的O 」，而用「 E 」。</li><li>Я - А: 「 Г, К, Х, Ж, Ч, Ш, Щ, Ц 」後面不接「 Я 」，而用「 А 」。</li><li>Ю - У: 「 Г, К, Х, Ж, Ч, Ш, Щ, Ц 」後面不接「 Ю 」，而用「 У 」。</li></ol><h2 id="二、輔音變化（Consonant-Mutation）"><a href="#二、輔音變化（Consonant-Mutation）" class="headerlink" title="二、輔音變化（Consonant Mutation）"></a>二、輔音變化（Consonant Mutation）</h2><table><thead><tr><th>+л</th><th>ч</th><th>ж</th><th>ш</th><th>щ</th></tr></thead><tbody><tr><td>п, б, ф, в, м</td><td>т, к</td><td>д, з, г</td><td>с, х</td><td>ст, ск</td></tr></tbody></table><p>п - пл<br>б - бл<br>ф - фл<br>в - вл<br>м - мл<br>т - ч<br>к - ч<br>д - ж<br>з - ж<br>г - ж<br>с - ш<br>х - ш<br>ст - щ<br>ск - щ</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="一、拼字規則（Spelling-Rules）"><a href="#一、拼字規則（Spelling-Rules）" class="headerlink" title="一、拼字規則（Spelling Rules）"></a>一、拼字規則（Spelling Rules）</h2><table><thead><tr><th>Ы - И</th><th>O - E</th><th>Я - А</th><th>Ю - У</th></tr></thead><tbody><tr><td>Г, К, Х, Ж, Ч, Ш, Щ</td><td>Ж, Ч, Ш, Щ, Ц</td><td>Г, К, Х, Ж, Ч, Ш, Щ, Ц</td><td>Г, К, Х, Ж, Ч, Ш, Щ, Ц</td></tr></tbody></table><ol><li>Ы - И: 「 Г, К, Х, Ж, Ч, Ш, Щ 」後面不接「Ы」，而用「И」。</li><li>非重音（unstressed） O - E: 「 Ж, Ч, Ш, Щ, Ц 」 後面不接「 非重音的O 」，而用「 E 」。</li><li>Я - А: 「 Г, К, Х, Ж, Ч, Ш, Щ, Ц 」後面不接「 Я 」，而用「 А 」。</li><li>Ю - У: 「 Г, К, Х, Ж, Ч, Ш, Щ, Ц 」後面不接「 Ю 」，而用「 У 」。</li></ol><h2 id="二、輔音變化（Consonant-Mutation）"><a href="#二、輔音變化（Consonant-Mutation）" class="headerlink" title="二、輔音變化（Consonant Mutation）"></a>二、輔音變化（Consonant Mutation）</h2><table><thead><tr><th>+л</th><th>ч</th><th>ж</th><th>ш</th><th>щ</th></tr></thead><tbody><tr><td>п, б, ф, в, м</td><td>т, к</td><td>д, з, г</td><td>с, х</td><td>ст, ск</td></tr></tbody></table><p>п - пл<br>б - бл<br>ф - фл<br>в - вл<br>м - мл<br>т - ч<br>к - ч<br>д - ж<br>з - ж<br>г - ж<br>с - ш<br>х - ш<br>ст - щ<br>ск - щ</p><p><em>相關連結：<a href="http://www.russianlessons.net/grammar/spelling_rules.php" target="_blank" rel="noopener">Russian Spelling Rules</a></em></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;大概背單字的時候可以參考?&lt;/p&gt;
-&lt;p&gt;相關連結：&lt;a href=&quot;http://www.russianlessons.net/grammar/spelling_rules.php&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Russian Spell
+        &lt;h2 id=&quot;一、拼字規則（Spelling-Rules）&quot;&gt;&lt;a href=&quot;#一、拼字規則（Spelling-Rules）&quot; class=&quot;headerlink&quot; title=&quot;一、拼字規則（Spelling Rules）&quot;&gt;&lt;/a&gt;一、拼字規則（Spelling Rule
       
     
     </summary>
@@ -87,9 +86,9 @@
     <link href="http://yoursite.com/2020/01/15/%E4%BF%84%E8%AA%9E%E5%85%A5%E9%96%80/"/>
     <id>http://yoursite.com/2020/01/15/俄語入門/</id>
     <published>2020-01-14T21:03:29.000Z</published>
-    <updated>2020-01-15T10:53:07.000Z</updated>
+    <updated>2020-01-21T18:36:26.000Z</updated>
     
-    <content type="html"><![CDATA[<p>自從之前有漢化組把所謂「漢」化，<br>做成了各種語言，甚至包含動漫原創的語言，<br>我開始對語言感興趣，<br>想學習一些比較困難的語言，<br>原來是打算學習「聖書體」的，<br>但花大力氣去學習一個用不上的語言，<br>總覺得缺乏動力，<br>使用人數多的語言中，<br>困難的除了中文就是俄文比較有名了，<br>於是就這樣開始了我的俄文學習。</p><p>開始是在Youtube上面學習俄文的：</p><p>認識俄羅斯：<a href="https://www.youtube.com/channel/UCGl40VuhX9oVlmUK9BTjdow" target="_blank" rel="noopener">伊莉娜俄羅斯</a><br>較正式的學習俄語：<a href="https://www.youtube.com/channel/UCyTKl5HMQNBwV5wVIkhoQzQ/videos" target="_blank" rel="noopener">娜塔莎俄語</a><br>學習單字(英)：<a href="https://www.youtube.com/user/russianpod101" target="_blank" rel="noopener">RussianPod101</a></p><p>其實都是些不錯的教學影片，<br>但是光看就想學會比較困難，<br>單字詞彙量、文法還是一知半解，<br>於是開始尋找其他資源。</p><p>做題目的方式學習：<a href="https://www.duolingo.com" target="_blank" rel="noopener">duolingo</a><br>比較全面的教學網站(英)：<a href="http://www.russianlessons.net" target="_blank" rel="noopener">Russian Lessons</a><br>打字練習：<a href="https://www.typingstudy.com/zh-russian-3/lesson/1/part/2" target="_blank" rel="noopener">線上打字練習</a></p><p>目前看下來網路上俄語學習的中文資源真的不多，<br>於是打算在這裡把自己消化吸收的內容記錄下來。</p>]]></content>
+    <content type="html"><![CDATA[<p>自從之前有漢化組把所謂「漢」化，<br>做成了各種語言，甚至包含動漫原創的語言，<br>我開始對語言感興趣，<br>想學習一些比較困難的語言，<br>原來是打算學習「聖書體」的，<br>但花大力氣去學習一個用不上的語言，<br>總覺得缺乏動力，<br>使用人數多的語言中，<br>困難的除了中文就是俄文比較有名了，<br>於是就這樣開始了我的俄文學習。</p><p>開始是在Youtube上面學習俄文的：</p><p>認識俄羅斯：<a href="https://www.youtube.com/channel/UCGl40VuhX9oVlmUK9BTjdow" target="_blank" rel="noopener">伊莉娜俄羅斯</a><br>較正式的學習俄語：<a href="https://www.youtube.com/channel/UCyTKl5HMQNBwV5wVIkhoQzQ/videos" target="_blank" rel="noopener">娜塔莎俄語</a><br>學習單字(英)：<a href="https://www.youtube.com/user/russianpod101" target="_blank" rel="noopener">RussianPod101</a></p><p>其實都是些不錯的教學影片，<br>但是光看就想學會比較困難，<br>單字詞彙量、文法還是一知半解，<br>於是開始尋找其他資源。</p><p>做題目的方式學習：<a href="https://www.duolingo.com" target="_blank" rel="noopener">duolingo</a><br>比較全面的教學網站(英)：<a href="http://www.russianlessons.net" target="_blank" rel="noopener">Russian Lessons</a><br>打字練習：<a href="https://www.typingstudy.com/zh-russian-3/lesson/1/part/2" target="_blank" rel="noopener">線上打字練習</a></p><p>目前看下來網路上俄語學習的中文資源真的不多，<br>於是打算把這裡當作自己的筆記本。</p>]]></content>
     
     <summary type="html">
     
