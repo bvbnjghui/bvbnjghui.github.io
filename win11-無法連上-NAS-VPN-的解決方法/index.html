@@ -16,23 +16,11 @@
     <link rel="dns-prefetch" href="https://bvbnjghui.github.io">
     <!--SEO-->
 
-    <meta name="keywords" content="俄語,文法,單字">
+    <meta name="keywords" content="windows,VPN">
 
 
-    <meta name="description" content="一、拼字規則（Spelling Rules）
-
-
-Ы - И
-O - E
-Я - А
-Ю - У
-
-
-
-
-Г, К, Х, Ж, Ч, Ш, Щ
-Ж, Ч, Ш, Щ, Ц
-Г, К, Х, Ж...">
+    <meta name="description" content="原因問題發生原因可以參考這篇:configure-l2tp-ipsec-server-behind-nat-t-device (英文)有興趣可以了解看看，這裡主要提供解決方案
+解決辦法修改登錄檔...">
 
 
 
@@ -44,7 +32,7 @@ O - E
     <!--Title-->
 
 
-<title>俄語 - 拼字規則 | Linsly 的小日子</title>
+<title>win11 無法連上 NAS VPN 的解決方法 | Linsly 的小日子</title>
 
 
     <link rel="alternate" href="/atom.xml" title="Linsly 的小日子" type="application/atom+xml">
@@ -131,16 +119,16 @@ O - E
                     <p id="process"></p>
 <article class="post">
     <div class="post-head">
-        <h1 id="俄語 - 拼字規則">
+        <h1 id="win11 無法連上 NAS VPN 的解決方法">
             
-	            俄語 - 拼字規則
+	            win11 無法連上 NAS VPN 的解決方法
             
         </h1>
         <div class="post-meta">
     
         <span class="categories-meta fa-wrap">
             <i class="fa fa-folder-open-o"></i>
-            <a class="category-link" href="/categories/學習/">學習</a>
+            <a class="category-link" href="/categories/系統設定/">系統設定</a>
         </span>
     
 
@@ -149,7 +137,7 @@ O - E
             <i class="fa fa-tags"></i>
             <span class="tags-meta">
                 
-                    <a class="tag-link" href="/tags/俄語/">俄語</a> <a class="tag-link" href="/tags/單字/">單字</a> <a class="tag-link" href="/tags/文法/">文法</a>
+                    <a class="tag-link" href="/tags/VPN/">VPN</a> <a class="tag-link" href="/tags/windows/">windows</a>
                 
             </span>
         </span>
@@ -159,7 +147,7 @@ O - E
         
         <span class="fa-wrap">
             <i class="fa fa-clock-o"></i>
-            <span class="date-meta">2020/01/22</span>
+            <span class="date-meta">2022/05/13</span>
         </span>
         
             <span class="fa-wrap">
@@ -171,59 +159,22 @@ O - E
 </div>
             
             
-            <p class="fa fa-exclamation-triangle warning">
-                本文于<strong>843</strong>天之前發表，文中內容可能已經過時。
-            </p>
-        
     </div>
     
     <div class="post-body post-content">
-        <h2 id="一、拼字規則（Spelling-Rules）"><a href="#一、拼字規則（Spelling-Rules）" class="headerlink" title="一、拼字規則（Spelling Rules）"></a>一、拼字規則（Spelling Rules）</h2><table>
-<thead>
-<tr>
-<th>Ы - И</th>
-<th>O - E</th>
-<th>Я - А</th>
-<th>Ю - У</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Г, К, Х, Ж, Ч, Ш, Щ</td>
-<td>Ж, Ч, Ш, Щ, Ц</td>
-<td>Г, К, Х, Ж, Ч, Ш, Щ, Ц</td>
-<td>Г, К, Х, Ж, Ч, Ш, Щ, Ц</td>
-</tr>
-</tbody>
-</table>
+        <h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>問題發生原因可以參考這篇:<br><a href="https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/configure-l2tp-ipsec-server-behind-nat-t-device" target="_blank" rel="noopener">configure-l2tp-ipsec-server-behind-nat-t-device (英文)</a><br>有興趣可以了解看看，這裡主要提供解決方案</p>
+<h2 id="解決辦法"><a href="#解決辦法" class="headerlink" title="解決辦法"></a>解決辦法</h2><p>修改登錄檔(註冊表)，然後設定 VPN 的數據協議：</p>
 <ol>
-<li>Ы - И: 「 Г, К, Х, Ж, Ч, Ш, Щ 」後面不接「Ы」，而用「И」。</li>
-<li>非重音（unstressed） O - E: 「 Ж, Ч, Ш, Щ, Ц 」 後面不接「 非重音的O 」，而用「 E 」。</li>
-<li>Я - А: 「 Г, К, Х, Ж, Ч, Ш, Щ, Ц 」後面不接「 Я 」，而用「 А 」。</li>
-<li>Ю - У: 「 Г, К, Х, Ж, Ч, Ш, Щ, Ц 」後面不接「 Ю 」，而用「 У 」。</li>
+<li><code>win + R</code>，執行<code>regedit</code><br><img src="../images/2022/05/14/dd2422d0-d2d6-11ec-8e4a-672491bd2196.png" alt="image.png"></li>
+<li>找到 <code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent</code><br><img src="../images/2022/05/14/0daff640-d2d7-11ec-8e4a-672491bd2196.png" alt="image.png"></li>
+<li><p>修改 <code>AssumeUDPEncapsulationContextOnSendRule</code> 數值為 <code>2</code> ，如果沒有找到就新增 <code>DWORD(32位元值)</code><br><img src="../images/2022/05/14/839c4160-d2d7-11ec-8e4a-672491bd2196.png" alt="image.png"></p>
+</li>
+<li><p>找到<strong>網路設定</strong> - <strong>介面卡設定</strong>，右鍵-內容<br><img src="../images/2022/05/13/961cf570-d2d5-11ec-8e4a-672491bd2196.png" alt="image.png"></p>
+</li>
+<li>設定 <strong>安全性</strong> - <strong>資料加密</strong> 為：<strong>需要加密（如果伺服器拒絕就中斷連線）</strong>；下面 <strong>允許這些通訊協定</strong>，只勾選 <code>Microsoft CHAP Version 2(MS-CHAP v2)</code><br><img src="../images/2022/05/14/b83d4460-d2d6-11ec-8e4a-672491bd2196.png" alt="image.png"></li>
+<li>重新開機</li>
 </ol>
-<h2 id="二、輔音變化（Consonant-Mutation）"><a href="#二、輔音變化（Consonant-Mutation）" class="headerlink" title="二、輔音變化（Consonant Mutation）"></a>二、輔音變化（Consonant Mutation）</h2><table>
-<thead>
-<tr>
-<th>+л</th>
-<th>ч</th>
-<th>ж</th>
-<th>ш</th>
-<th>щ</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>п, б, ф, в, м</td>
-<td>т, к</td>
-<td>д, з, г</td>
-<td>с, х</td>
-<td>ст, ск</td>
-</tr>
-</tbody>
-</table>
-<p>п - пл<br>б - бл<br>ф - фл<br>в - вл<br>м - мл<br>т - ч<br>к - ч<br>д - ж<br>з - ж<br>г - ж<br>с - ш<br>х - ш<br>ст - щ<br>ск - щ</p>
-<p><em>相關連結：<a href="http://www.russianlessons.net/grammar/spelling_rules.php" target="_blank" rel="noopener">Russian Spelling Rules</a></em></p>
+<p>個人執行完以上步驟就能正常連線，還是連不上可以嘗試後續步驟： <em><a href="https://www.huluohu.com/posts/202110122349/" target="_blank" rel="noopener">解决Win11连接群晖上的L2TP类型vpn无响应的问题</a></em></p>
 
     </div>
     
@@ -241,15 +192,10 @@ O - E
 
 <div class="article-nav prev-next-wrap clearfix">
     
-        <a href="/2022/05/13/win11-無法連上-NAS-VPN-的解決方法/" class="pre-post btn btn-default" title="win11 無法連上 NAS VPN 的解決方法">
-            <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
-            <span class="hidden-xs">win11 無法連上 NAS VPN 的解決方法</span>
-        </a>
     
-    
-        <a href="/2020/01/15/俄語-名詞變化/" class="next-post btn btn-default" title="俄語 - 名詞變化">
+        <a href="/俄語-拼字規則/" class="next-post btn btn-default" title="俄語 - 拼字規則">
             <span class="hidden-lg">下一篇</span>
-            <span class="hidden-xs">俄語 - 名詞變化</span><i class="fa fa-angle-right fa-fw"></i>
+            <span class="hidden-xs">俄語 - 拼字規則</span><i class="fa fa-angle-right fa-fw"></i>
         </a>
     
 </div>
@@ -271,7 +217,7 @@ O - E
     <div class="widget">
         <h3 class="title">文章目錄</h3>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、拼字規則（Spelling-Rules）"><span class="toc-text">一、拼字規則（Spelling Rules）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、輔音變化（Consonant-Mutation）"><span class="toc-text">二、輔音變化（Consonant Mutation）</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#原因"><span class="toc-text">原因</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#解決辦法"><span class="toc-text">解決辦法</span></a></li></ol>
         
     </div>
 </aside>
