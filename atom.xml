@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bvbnjghui.github.io/"/>
-  <updated>2022-05-13T16:55:30.000Z</updated>
+  <updated>2022-05-14T06:39:22.000Z</updated>
   <id>https://bvbnjghui.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://bvbnjghui.github.io/win11-%E7%84%A1%E6%B3%95%E9%80%A3%E4%B8%8A-NAS-VPN-%E7%9A%84%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95/"/>
     <id>https://bvbnjghui.github.io/win11-無法連上-NAS-VPN-的解決方法/</id>
     <published>2022-05-13T03:42:13.000Z</published>
-    <updated>2022-05-13T16:55:30.000Z</updated>
+    <updated>2022-05-14T06:39:22.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>問題發生原因可以參考這篇:<br><a href="https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/configure-l2tp-ipsec-server-behind-nat-t-device" target="_blank" rel="noopener">configure-l2tp-ipsec-server-behind-nat-t-device (英文)</a><br>有興趣可以了解看看，這裡主要提供解決方案</p><h2 id="解決辦法"><a href="#解決辦法" class="headerlink" title="解決辦法"></a>解決辦法</h2><p>修改登錄檔(註冊表)，然後設定 VPN 的數據協議：</p><ol><li><code>win + R</code>，執行<code>regedit</code><br><img src="../images/2022/05/14/dd2422d0-d2d6-11ec-8e4a-672491bd2196.png" alt="image.png"></li><li>找到 <code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent</code><br><img src="../images/2022/05/14/0daff640-d2d7-11ec-8e4a-672491bd2196.png" alt="image.png"></li><li><p>修改 <code>AssumeUDPEncapsulationContextOnSendRule</code> 數值為 <code>2</code> ，如果沒有找到就新增 <code>DWORD(32位元值)</code><br><img src="../images/2022/05/14/839c4160-d2d7-11ec-8e4a-672491bd2196.png" alt="image.png"></p></li><li><p>找到<strong>網路設定</strong> - <strong>介面卡設定</strong>，右鍵-內容<br><img src="../images/2022/05/13/961cf570-d2d5-11ec-8e4a-672491bd2196.png" alt="image.png"></p></li><li>設定 <strong>安全性</strong> - <strong>資料加密</strong> 為：<strong>需要加密（如果伺服器拒絕就中斷連線）</strong>；下面 <strong>允許這些通訊協定</strong>，只勾選 <code>Microsoft CHAP Version 2(MS-CHAP v2)</code><br><img src="../images/2022/05/14/b83d4460-d2d6-11ec-8e4a-672491bd2196.png" alt="image.png"></li><li>重新開機</li></ol><p>個人執行完以上步驟就能正常連線，還是連不上可以嘗試後續步驟： <em><a href="https://www.huluohu.com/posts/202110122349/" target="_blank" rel="noopener">解决Win11连接群晖上的L2TP类型vpn无响应的问题</a></em></p>]]></content>
     
