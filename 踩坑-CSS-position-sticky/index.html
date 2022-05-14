@@ -19,10 +19,10 @@
     <link rel="dns-prefetch" href="https://bvbnjghui.github.io">
     <!--SEO-->
 
-<meta name="keywords" content>
+<meta name="keywords" content="CSS,sticky,網頁開發">
 
 
-<meta name="description" content>
+<meta name="description" content="前言position: sticky 是 CSS3 的屬性，類似於 position: fixed ，但並非根據整個畫面定位，而是可供定位的祖先元素。過去往往要使用 javascript，才能製...">
 
 
 <meta name="robots" content="all">
@@ -33,7 +33,7 @@
 
 <title>
     
-    彙整：2020/1 |
+    踩坑 CSS - position: sticky |
     
     Linsly 的小日子
 </title>
@@ -113,78 +113,98 @@
     <section class="content-wrap">
         <div class="container">
             <div class="row">
-                <main class="col-md-8 main-content ">
-                    <div id="main">
-    <div class="timebox">
-        <div class="timeline">
-            <ul>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <h2>
-                    2020
-                </h2>
-                
-                
-                <li class>
-                    
-                    <h3>
-                        22<span>
-                            01月</span>
-                    </h3>
-                    <a href="/俄語-拼字規則/" title="俄語 - 拼字規則" target="_blank">
-                        俄語 - 拼字規則</a>
-                </li>
-                
-                
-                
-                
-                
-                
-                <li class>
-                    
-                    <h3>
-                        15<span>
-                            01月</span>
-                    </h3>
-                    <a href="/俄語-名詞變化/" title="俄語 - 名詞變化" target="_blank">
-                        俄語 - 名詞變化</a>
-                </li>
-                
-                
-                
-                
-                
-                
-                <li class>
-                    
-                    <h3>
-                        15<span>
-                            01月</span>
-                    </h3>
-                    <a href="/俄語入門/" title="俄語入門?" target="_blank">
-                        俄語入門?</a>
-                </li>
-                
-                
-            </ul>
+                <main class="col-md-8 main-content m-post">
+                    <p id="process"></p>
+<article class="post">
+    <div class="post-head">
+        <h1 id="踩坑 CSS - position: sticky">
+            
+            踩坑 CSS - position: sticky
+            
+        </h1>
+        <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        <a class="category-link" href="/categories/網頁技術/">網頁技術</a> <a class="category-link" href="/categories/網頁技術/學習/">學習</a>
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+            <a class="tag-link" href="/tags/CSS/">CSS</a> <a class="tag-link" href="/tags/sticky/">sticky</a> <a class="tag-link" href="/tags/網頁開發/">網頁開發</a>
+            
+        </span>
+    </span>
+    
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-clock-o"></i>
+        <span class="date-meta">
+            2022/05/14</span>
+    </span>
+    
+    
+</div>
+        
+        
+    </div>
+    
+    <div class="post-body post-content">
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><code>position: sticky</code> 是 CSS3 的屬性，類似於 <code>position: fixed</code> ，但並非根據整個畫面定位，而是可供定位的祖先元素。<br>過去往往要使用 javascript，才能製作根據捲動進度來定位的區塊（如選單），在 <code>position: sticky</code> 出現後可以更方便的達成想要的效果。</p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>與 <code>position: fixed</code> 相似，只要設定 <code>position: sticky</code>與定位(<code>top</code>, <code>bottom</code>, <code>left</code>, <code>right</code>)，會根據捲動來吸附定位的區塊就製作完成了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">.sidebar &#123;</span><br><span class="line">    position: sticky;</span><br><span class="line">    top: 20px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="解決"><a href="#解決" class="headerlink" title="解決"></a>解決</h2><p>最近在開發的時候，一直沒辦法達到想要的捲動定位效果，而只是類似於 <code>position: relative</code>，於是到處爬文，發現要定位元素的任意祖先元素，不能有 <code>overflow: hidden</code>，否則就會影響定位判斷，造成屬性失效，對此進行修正就正常了。</p>
+<h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank" rel="noopener">position - CSS: Cascading Style Sheets | MDN</a></p>
+
+    </div>
+    
+    <div class="post-footer">
+        <div>
+            
+            轉載聲明：
+            商業轉載請聯繫作者獲得授權,非商業轉載請註明出處。
+            
+            
+        </div>
+        <div>
+            
         </div>
     </div>
+</article>
+<div class="article-nav prev-next-wrap clearfix">
+    
+    
+    <a href="/win11-無法連上-NAS-VPN-的解決方法/" class="next-post btn btn-default" title="win11 無法連上 NAS VPN 的解決方法">
+        <span class="hidden-lg">下一篇</span>
+        <span class="hidden-xs">
+            win11 無法連上 NAS VPN 的解決方法</span><i class="fa fa-angle-right fa-fw"></i>
+    </a>
+    
 </div>
+
+<div id="comments">
+    
+<p>评论系统未开启，无法评论！</p>
+
+</div>
+
                 </main>
                     
 <aside class="col-md-4 sidebar">
     
     
+    <div class="widget">
+        <h3 class="title">
+            文章目錄
+        </h3>
+        
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用"><span class="toc-text">使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#解決"><span class="toc-text">解決</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#參考資料"><span class="toc-text">參考資料</span></a></li></ol>
+        
+    </div>
+
     
     
 <div class="widget">
@@ -312,8 +332,6 @@
         </div>
     </div>
 </div>
-
-<script src="/js/search.js?rev=@@hash"></script>
 
 
 
