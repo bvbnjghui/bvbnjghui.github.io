@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bvbnjghui.github.io/"/>
-  <updated>2022-05-14T08:11:50.000Z</updated>
+  <updated>2022-05-14T09:02:26.000Z</updated>
   <id>https://bvbnjghui.github.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>踩坑 CSS - position: sticky</title>
     <link href="https://bvbnjghui.github.io/%E8%B8%A9%E5%9D%91-CSS-position-sticky/"/>
     <id>https://bvbnjghui.github.io/踩坑-CSS-position-sticky/</id>
-    <published>2022-05-14T08:11:50.000Z</published>
-    <updated>2022-05-14T08:11:50.000Z</updated>
+    <published>2022-05-13T20:11:50.000Z</published>
+    <updated>2022-05-14T09:02:26.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><code>position: sticky</code> 是 CSS3 的屬性，類似於 <code>position: fixed</code> ，但並非根據整個畫面定位，而是可供定位的祖先元素。<br>過去往往要使用 javascript，才能製作根據捲動進度來定位的區塊（如選單），在 <code>position: sticky</code> 出現後可以更方便的達成想要的效果。</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>與 <code>position: fixed</code> 相似，只要設定 <code>position: sticky</code>與定位(<code>top</code>, <code>bottom</code>, <code>left</code>, <code>right</code>)，會根據捲動來吸附定位的區塊就製作完成了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">.sidebar &#123;</span><br><span class="line">    position: sticky;</span><br><span class="line">    top: 20px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><h2 id="解決"><a href="#解決" class="headerlink" title="解決"></a>解決</h2><p>最近在開發的時候，一直沒辦法達到想要的捲動定位效果，而只是類似於 <code>position: relative</code>，於是到處爬文，發現要定位元素的任意祖先元素，不能有 <code>overflow: hidden</code>，否則就會影響定位判斷，造成屬性失效，對此進行修正就正常了。</p><h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank" rel="noopener">position - CSS: Cascading Style Sheets | MDN</a></p>]]></content>
     
@@ -35,8 +35,6 @@
     </summary>
     
       <category term="網頁技術" scheme="https://bvbnjghui.github.io/categories/%E7%B6%B2%E9%A0%81%E6%8A%80%E8%A1%93/"/>
-    
-      <category term="學習" scheme="https://bvbnjghui.github.io/categories/%E7%B6%B2%E9%A0%81%E6%8A%80%E8%A1%93/%E5%AD%B8%E7%BF%92/"/>
     
     
       <category term="CSS" scheme="https://bvbnjghui.github.io/tags/CSS/"/>
