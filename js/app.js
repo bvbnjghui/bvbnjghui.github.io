@@ -1,7 +1,6 @@
 /*!========================================================================
  *  hexo-theme-snippet: app.js v1.0.0
  * ======================================================================== */
-<<<<<<< Updated upstream
 window.onload = function () {
   var $body = document.body,
     $mnav = document.getElementById("mnav"), //获取导航三角图标
@@ -13,22 +12,6 @@ window.onload = function () {
     $backToTop = document.getElementById("back-to-top"),
     $toc = document.getElementById("article-toc"),
     timer = null;
-=======
-window.onload = function() {
-    //基本參數
-    //var theYear = new Date().getFullYear();
-
-    var $body = document.body,
-        $mnav = document.getElementById("mnav"), //获取导航三角图标
-        $mainMenu = document.getElementById("main-menu"), //手机导航
-        $process = document.getElementById('process'), //进度条
-        $ajaxImgs = document.querySelectorAll('.img-ajax'), //图片懒加载
-        $commentsCounter = document.getElementById('comments-count'),
-        $gitcomment = document.getElementById("gitcomment"),
-        $backToTop = document.getElementById("back-to-top"),
-        $toc = document.getElementById("article-toc"),
-        timer = null;
->>>>>>> Stashed changes
 
   //设备判断
   var isPC = true;
@@ -93,7 +76,6 @@ window.onload = function() {
     }
   }
 
-<<<<<<< Updated upstream
   //获取滚动高度
   function getScrollTop() {
     return $body.scrollTop || document.documentElement.scrollTop;
@@ -146,20 +128,4 @@ window.onload = function() {
       }
     });
   };
-=======
-    //返回顶部
-    $backToTop.onclick = function() {
-        cancelAnimationFrame(timer);
-        timer = requestAnimationFrame(function fn() {
-            var sTop = getScrollTop();
-            if (sTop > 0) {
-                $body.scrollTop = document.documentElement.scrollTop = sTop - 50;
-                timer = requestAnimationFrame(fn);
-            } else {
-                cancelAnimationFrame(timer);
-            }
-        });
-    };
-
->>>>>>> Stashed changes
 };
