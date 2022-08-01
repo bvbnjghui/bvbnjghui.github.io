@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bvbnjghui.github.io/"/>
-  <updated>2022-05-14T09:02:26.000Z</updated>
+  <updated>2022-08-01T14:51:59.000Z</updated>
   <id>https://bvbnjghui.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Youtube 影片隱私設定</title>
+    <link href="https://bvbnjghui.github.io/Youtube-%E5%BD%B1%E7%89%87%E9%9A%B1%E7%A7%81%E8%A8%AD%E5%AE%9A/"/>
+    <id>https://bvbnjghui.github.io/Youtube-影片隱私設定/</id>
+    <published>2022-08-01T02:09:39.000Z</published>
+    <updated>2022-08-01T14:51:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近剛好跟上雲際線幾位 Vtuber 畢業，畢業後頻道影片都轉為不公開，這個「不公開」跟「私人」權限一樣嗎? 雖然以前了解過，但是看討論串各執一詞，讓我不禁懷疑自己的認知。<br><img src="../images/2022/08/01/3456c050-11a5-11ed-8b82-19781437b1ef.png" alt="image.png"><br>其實 Youtube 的 <a href="https://support.google.com/youtube/answer/157177" target="_blank" rel="noopener">說明</a> 寫得蠻清楚的:</p><ul><li><strong>公開影片</strong> - YouTube 上的所有人都能觀看公開影片，而且也能與其他 YouTube 使用者分享這類影片。上傳完成的公開影片會發布至您的頻道，並顯示在搜尋結果和相關影片清單中。</li><li><strong>私人影片</strong> - 只有您自己和指定的使用者可以觀看。私人影片不會顯示在頻道首頁的「影片」分頁中，也不會出現在 YouTube 的搜尋結果中。</li><li><strong>不公開影片</strong> - 只有取得連結的使用者可以觀看及分享。不公開影片不會顯示在頻道首頁的「影片」分頁中，除非有人將不公開影片新增至公開的播放清單，否則這類內容也不會顯示在 YouTube 搜尋結果中。<br>就是說<br>公開: 會<strong>顯示在頻道</strong>、<strong>可被搜尋</strong>到的一般影片<br>不公開: 知道<strong>連結</strong>(加入<strong>播放清單</strong>)才能觀看的影片<br>私人: 只有上傳者<strong>本人</strong>與指定的使用者能觀看的影片<br>所以假如影片的處置是<strong>不公開</strong>，那只需要先存進播放清單，或者把連結都記錄下來，以後還是能找到那些影片。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近剛好跟上雲際線幾位 Vtuber 畢業，畢業後頻道影片都轉為不公開，這個「不公開」跟「私人」權限一樣嗎? 雖然以前了解過，但是看討論串各執一詞，讓我不禁懷疑自己的認知。&lt;br&gt;&lt;img src=&quot;../images/2022/08/01/3456c050-11a5-11
+      
+    
+    </summary>
+    
+      <category term="發燒話題" scheme="https://bvbnjghui.github.io/categories/%E7%99%BC%E7%87%92%E8%A9%B1%E9%A1%8C/"/>
+    
+    
+      <category term="Youtube" scheme="https://bvbnjghui.github.io/tags/Youtube/"/>
+    
+      <category term="觀看權限" scheme="https://bvbnjghui.github.io/tags/%E8%A7%80%E7%9C%8B%E6%AC%8A%E9%99%90/"/>
+    
+  </entry>
   
   <entry>
     <title>踩坑 CSS - position: sticky</title>
