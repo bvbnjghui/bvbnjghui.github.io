@@ -170,10 +170,10 @@
 <li><strong>列表載入所有影片</strong>：打開頻道的影片頁面，並不斷下拉畫面，直到每部影片都在畫面上列出來。<img src="../images/2022/08/03/26d60260-1295-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
 <li><strong>打開瀏覽器的開發者工具</strong>：按 F12 或 右鍵-&gt;開發者工具-&gt;檢查<img src="../images/2022/08/03/d1439e10-1295-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
 <li><strong>使用 js 將每部影片做處理</strong>：在開發者工具下方的控制台 (console) 中，輸入要執行的程式碼並按 Enter 執行，這裡我寫的是: <em>Array.from(document.querySelectorAll(‘.ytd-grid-renderer #video-title’)).map(v=&gt;<code>&quot;${v.innerText}&quot;,&quot;${v.href}&quot;</code>).join(‘\n’)</em><br><img src="../images/2022/08/03/4b45f130-1297-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
-<li>將獲得的內容儲存：將程式碼執行後，輸出的內容複製並儲存</li>
-<li>使用編輯器處理格式，製作成表格輸出。通常使用CSV格式，逗號分欄、換行就是新一列。前面輸出的內容可以直接用編輯器做取代，沒有慣用的文字編輯器，也可以使用<a href="https://stackblitz.com/fork/js" target="_blank" rel="noopener">線上版</a>，如圖可以直接把全部的<code>\n</code>取代成換行符<br><img src="../images/2022/08/05/3d0dd670-1411-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
-<li>另存新檔成CSV(windows可能要改編碼來避免亂碼)<img src="../images/2022/08/05/4e395360-1412-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
-<li>亂碼不會處理可以匯入到Google Sheets，自動處理好編碼問題!<img src="../images/2022/08/05/a582c110-1412-11ed-91f9-27796ce47e6c.png" alt="image.png"><h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2>這篇文章算是用爬蟲的方式，快速複製並處理需要的內容，下篇文章應該會介紹怎麼用API的方式，快速把影片加入播放清單。</li>
+<li><strong>將獲得的內容儲存</strong>：將程式碼執行後，輸出的內容複製並儲存</li>
+<li><strong>對資料進行處理</strong>：使用編輯器處理格式，製作成表格輸出。通常使用CSV格式，逗號分欄、換行就是新一列。前面輸出的內容可以直接用編輯器做取代，沒有慣用的文字編輯器，也可以使用<a href="https://stackblitz.com/fork/js" target="_blank" rel="noopener">線上版</a>，如圖可以直接把全部的<code>\n</code>取代成換行符<br><img src="../images/2022/08/05/3d0dd670-1411-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
+<li><strong>製作成表格</strong>：另存新檔成CSV(windows可能要改編碼來避免亂碼)<img src="../images/2022/08/05/4e395360-1412-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
+<li><strong>亂碼處理</strong>：亂碼不會處理可以匯入到Google Sheets，自動處理好編碼問題!<img src="../images/2022/08/05/a582c110-1412-11ed-91f9-27796ce47e6c.png" alt="image.png"><h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2>這篇文章算是用爬蟲的方式，快速複製並處理需要的內容，下篇文章應該會介紹怎麼用API的方式，快速把影片加入播放清單。</li>
 </ol>
 
     </div>
