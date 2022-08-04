@@ -19,10 +19,10 @@
     <link rel="dns-prefetch" href="https://bvbnjghui.github.io">
     <!--SEO-->
 
-<meta name="keywords" content>
+<meta name="keywords" content="Javascript,爬蟲">
 
 
-<meta name="description" content>
+<meta name="description" content="前言自從聽說 李李鈴蘭、瑪格麗特.溫特斯、神稻櫻火 畢業後，影片將要轉成不公開，就開始有了如何保存影片的討論。對於 不公開的影片，其實只要加入播放清單，或者將連結記錄下來即可。雖然可以一部一部影...">
 
 
 <meta name="robots" content="all">
@@ -33,7 +33,7 @@
 
 <title>
     
-    彙整：2022/5 |
+    Javascript應用 - 快速取得全部影片連結 |
     
     Linsly 的小日子
 </title>
@@ -123,96 +123,105 @@
     <section class="content-wrap">
         <div class="container">
             <div class="row">
-                <main class="col-md-8 main-content ">
-                    <div id="main">
-    <div class="timebox">
-        <div class="timeline">
-            <ul>
-                
-                
-                
-                
-                
-                
-                <h2>
-                    2022
-                </h2>
-                
-                
-                <li class="hide">
-                    
-                    <h3>
-                        02<span>
-                            08月</span>
-                    </h3>
-                    <a href="/Javascript應用-快速取得全部影片連結/" title="Javascript應用 - 快速取得全部影片連結" target="_blank">
-                        Javascript應用 - 快速取得全部影片連結</a>
-                </li>
-                
-                
-                
-                
-                
-                
-                <li class="hide">
-                    
-                    <h3>
-                        01<span>
-                            08月</span>
-                    </h3>
-                    <a href="/Youtube-影片隱私設定/" title="Youtube 影片隱私設定" target="_blank">
-                        Youtube 影片隱私設定</a>
-                </li>
-                
-                
-                
-                
-                
-                
-                <li class>
-                    
-                    <h3>
-                        14<span>
-                            05月</span>
-                    </h3>
-                    <a href="/踩坑-CSS-position-sticky/" title="踩坑 CSS - position: sticky" target="_blank">
-                        踩坑 CSS - position: sticky</a>
-                </li>
-                
-                
-                
-                
-                
-                
-                <li class>
-                    
-                    <h3>
-                        13<span>
-                            05月</span>
-                    </h3>
-                    <a href="/win11-無法連上-NAS-VPN-的解決方法/" title="win11 無法連上 NAS VPN 的解決方法" target="_blank">
-                        win11 無法連上 NAS VPN 的解決方法</a>
-                </li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-            </ul>
+                <main class="col-md-8 main-content m-post">
+                    <p id="process"></p>
+<article class="post">
+    <div class="post-head">
+        <h1 id="Javascript應用 - 快速取得全部影片連結">
+            
+            Javascript應用 - 快速取得全部影片連結
+            
+        </h1>
+        <div class="post-meta">
+    
+    <span class="categories-meta fa-wrap">
+        <i class="fa fa-folder-open-o"></i>
+        <a class="category-link" href="/categories/網頁技術/">網頁技術</a>
+    </span>
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-tags"></i>
+        <span class="tags-meta">
+            
+            <a class="tag-link" href="/tags/Javascript/">Javascript</a> <a class="tag-link" href="/tags/爬蟲/">爬蟲</a>
+            
+        </span>
+    </span>
+    
+    
+    
+    <span class="fa-wrap">
+        <i class="fa fa-clock-o"></i>
+        <span class="date-meta">
+            2022/08/02</span>
+    </span>
+    
+    
+</div>
+        
+        
+    </div>
+    
+    <div class="post-body post-content">
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>自從聽說 <a href="https://www.youtube.com/channel/UCxWAL-c1psONO_DfG-cq2iA" target="_blank" rel="noopener">李李鈴蘭</a>、<a href="https://www.youtube.com/channel/UCJ4VZaUiVC2vpN7TXG85M5g" target="_blank" rel="noopener">瑪格麗特.溫特斯</a>、<a href="https://www.youtube.com/channel/UC_soGpcb7SORsk5yzHLMdTQ" target="_blank" rel="noopener">神稻櫻火</a> 畢業後，影片將要轉成不公開，就開始有了如何保存影片的討論。<br>對於 <a href="https://bvbnjghui.github.io/Youtube-%E5%BD%B1%E7%89%87%E9%9A%B1%E7%A7%81%E8%A8%AD%E5%AE%9A/">不公開的影片</a>，其實只要加入播放清單，或者將連結記錄下來即可。雖然可以一部一部影片去儲存，但身為網頁工作者，自然會想用一些比較偷懶的方式。</p>
+<h2 id="實作"><a href="#實作" class="headerlink" title="實作"></a>實作</h2><p>這裡會涉及一些簡單的 Javascript:</p>
+<ol>
+<li><strong>列表載入所有影片</strong>：打開頻道的影片頁面，並不斷下拉畫面，直到每部影片都在畫面上列出來。<img src="../images/2022/08/03/26d60260-1295-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
+<li><strong>打開瀏覽器的開發者工具</strong>：按 F12 或 右鍵-&gt;開發者工具-&gt;檢查<img src="../images/2022/08/03/d1439e10-1295-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
+<li><strong>使用 js 將每部影片做處理</strong>：在開發者工具下方的控制台 (console) 中，輸入要執行的程式碼並按 Enter 執行，這裡我寫的是: <em>Array.from(document.querySelectorAll(‘.ytd-grid-renderer #video-title’)).map(v=&gt;<code>&quot;${v.innerText}&quot;,&quot;${v.href}&quot;</code>).join(‘\n’)</em><br><img src="../images/2022/08/03/4b45f130-1297-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
+<li>將獲得的內容儲存：將程式碼執行後，輸出的內容複製並儲存</li>
+<li>使用編輯器處理格式，製作成表格輸出。通常使用CSV格式，逗號分欄、換行就是新一列。前面輸出的內容可以直接用編輯器做取代，沒有慣用的文字編輯器，也可以使用<a href="https://stackblitz.com/fork/js" target="_blank" rel="noopener">線上版</a>，如圖可以直接把全部的<code>\n</code>取代成換行符<br><img src="../images/2022/08/05/3d0dd670-1411-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
+<li>另存新檔成CSV(windows可能要改編碼來避免亂碼)<img src="../images/2022/08/05/4e395360-1412-11ed-91f9-27796ce47e6c.png" alt="image.png"></li>
+<li>亂碼不會處理可以匯入到Google Sheets，自動處理好編碼問題!<img src="../images/2022/08/05/a582c110-1412-11ed-91f9-27796ce47e6c.png" alt="image.png"><h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2>這篇文章算是用爬蟲的方式，快速複製並處理需要的內容，下篇文章應該會介紹怎麼用API的方式，快速把影片加入播放清單。</li>
+</ol>
+
+    </div>
+    
+    <div class="post-footer">
+        <div>
+            
+            轉載聲明：
+            商業轉載請聯繫作者獲得授權,非商業轉載請註明出處。
+            
+            
+        </div>
+        <div>
+            
         </div>
     </div>
+</article>
+<div class="article-nav prev-next-wrap clearfix">
+    
+    
+    <a href="/Youtube-影片隱私設定/" class="next-post btn btn-default" title="Youtube 影片隱私設定">
+        <span class="hidden-lg">下一篇</span>
+        <span class="hidden-xs">
+            Youtube 影片隱私設定</span><i class="fa fa-angle-right fa-fw"></i>
+    </a>
+    
 </div>
+
+<div id="comments">
+    
+<p>评论系统未开启，无法评论！</p>
+
+</div>
+
                 </main>
                     
 <aside class="col-md-4 sidebar">
     
     
+    <div class="widget">
+        <h3 class="title">
+            文章目錄
+        </h3>
+        
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#實作"><span class="toc-text">實作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#結語"><span class="toc-text">結語</span></a></li></ol>
+        
+    </div>
+
     
     
 <div class="widget">
@@ -323,8 +332,6 @@
         </div>
     </div>
 </div>
-
-<script src="/js/search.js?rev=@@hash"></script>
 
 
 
